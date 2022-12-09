@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feedback</title>
+    <link rel="icon" type="image/x-icon" href="img/basket.png" />
+    <link href="fbStyle.css" rel="stylesheet" />
+    <link href="Style.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="icon">
+        <a href="main.html"
+          ><img src="img/basket.png" alt="Fruit Basket Logo" />
+          <h4>Fruit Shoppy</h4>
+        </a>
+      </div>
+      <ul class="NavBar">
+        <li><a href="main.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="index1.html">Login</a></li>
+        <li><a href="Review.html">Review us</a></li>
+        <li>
+          <a href="Orderpage.html"><i id="Cart" class="bx bxs-cart-add"></i></a>
+        </li>
+      </ul>
+      <div class="profile">
+        <img src="img/profile.png" alt="Profile Icon" />
+        <p>Team 77<i class="bx bx-caret-down"></i></p>
+      </div>
+    </header>
+    <section class="box">
+      <div class="textBox">
+        <h1 id="fb">Review us</h1>
+
+        <section class="mainBlock">
+          <div class="lebelBlock">
+            <div class="row">
+              <label class="fname" for="fname">First Name</label>
+            </div>
+            <div class="row">
+              <label for="lname">Last Name</label>
+            </div>
+            <div class="row">
+              <label for="email">Email ID</label>
+            </div>
+            <div class="row">
+              <label for="textfb">Suggestions</label>
+            </div>
+          </div>
+
+          <div class="inputBlock">
+            <input
+              type="text"
+              id="fname"
+              name="firstname"
+              placeholder="Your name.."
+            />
+            <input
+              type="text"
+              id="lname"
+              name="lastname"
+              placeholder="Your last name.."
+            />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Email ID.."
+            />
+            <textarea
+              class="comment"
+              id="textfb"
+              name="textfb"
+              placeholder="      We'd love to hear your suggestions"
+            ></textarea>
+            <br />
+            <h1 class="stars">
+              <p class="star2"><i class="bx bxs-star"></i></p>
+              <p class="star3"><i class="bx bxs-star"></i></p>
+              <p class="star1"><i class="bx bxs-star"></i></p>
+              <p class="star4"><i class="bx bxs-star"></i></p>
+              <p class="star5"><i class="bx bxs-star"></i></p>
+            </h1>
+            <div class="buttons">
+              <button id="submitBtn" type="submit">Submit</button>
+              <button id="reset" type="reset">Reset</button>
+              <a id="close" href="main.html">Close</a>
+              <!-- <button id="close" type="button">Close</button> -->
+            </div>
+          </div>
+        </section>
+
+        <section class="ratingBlock">
+          <p>Rating</p>
+        </section>
+      </div>
+    </section>
+
+    <script src="fb.js"></script>
+  </body>
+</html>

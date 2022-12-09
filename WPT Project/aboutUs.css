@@ -1,0 +1,49 @@
+.aboutUsBlock{
+    background-color: lightgray;
+    width: 100%;
+    display: inline-block;
+}
+.aboutUs{
+    font-size: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: orangered;
+    text-align: center;
+    margin: 100px 300px;
+    margin-bottom: 100px;
+    padding:30px;
+}
+.aboutUs p{
+    font-size: 25px;
+    color: rgb(107, 107, 107);
+    text-align: center;
+
+}
+.aboutUs h5{
+    padding-top: 40px;
+    color: black;
+}
+.socialMedia{
+    margin: 80px auto;
+}
+.socialMedia li{
+    list-style:none;
+    width: 20%;
+    border: 1px solid black;
+}
+.socialMedia img{
+    height: 40px;
+    margin: 10px 50px 10px 200px;
+    border-radius: 8px;
+}
+.socialMedia .click{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgba(255, 0, 212, 0);
+    margin-left: 0px;
+    position: absolute;
+    margin-top: 10px;
+}
+.socialMedia:hover .click{
+    color: rgb(255, 0, 212);
+    transition: 0.4s;
+}
